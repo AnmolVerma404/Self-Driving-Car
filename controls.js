@@ -34,7 +34,6 @@ class Controls {
 					this.reverse = true;
 					break;
 			}
-            console.log("Pressed",this);
 		};
 		document.onkeyup = event => {
 			switch (event.key) {
@@ -51,7 +50,6 @@ class Controls {
 					this.reverse = false;
 					break;
 			}
-            console.log("Removed",this);
 		};
 	}
 }
