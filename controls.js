@@ -10,15 +10,15 @@ class Controls {
 		this.#addKeyboardListeners();
 	}
 	#addKeyboardListeners() {
-        /**
-         * We are using arrow function here because in this type of function deleraction - 
-         * The keyword this means that class this
-         * If we wrote the function (event) {this} Here this will be for function
-         * Therefore we want to access this of the class
-         * There is a way to use regular function and get this.<var> true
-         * That is to use .bind(this) at the end of class. This will look something like this
-         * document.onkeydown = function(event){}.bind(this);
-         */
+		/**
+		 * We are using arrow function here because in this type of function deleraction -
+		 * The keyword this means that class this
+		 * If we wrote the function (event) {this} Here this will be for function
+		 * Therefore we want to access this of the class
+		 * There is a way to use regular function and get this.<var> true
+		 * That is to use .bind(this) at the end of class. This will look something like this
+		 * document.onkeydown = function(event){}.bind(this);
+		 */
 		document.onkeydown = event => {
 			switch (event.key) {
 				case 'ArrowLeft':
