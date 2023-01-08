@@ -53,10 +53,10 @@ class Car {
 		this.x -= Math.sin(this.angle) * this.speed;
 		this.y -= Math.cos(this.angle) * this.speed;
 	}
-	draw(crx) {
-		crx.save();
-		crx.translate(this.x, this.y);
-		crx.rotate(-this.angle);
+	draw(ctx) {
+		ctx.save();
+		ctx.translate(this.x, this.y);
+		ctx.rotate(-this.angle);
 		ctx.beginPath();
 		ctx.rect(-this.width / 2, -this.height / 2, this.width, this.height);
 		ctx.fill();
