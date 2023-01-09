@@ -17,9 +17,9 @@ class Car {
 		this.sensor = new Sensors(this);
 		this.controls = new Controls();
 	}
-	update() {
+	update(roadBorders) {
 		this.#move();
-		this.sensor.update();
+		this.sensor.update(roadBorders);
 	}
 	#move() {
 		if (this.controls.forward) {
