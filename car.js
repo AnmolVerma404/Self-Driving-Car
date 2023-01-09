@@ -14,7 +14,7 @@ class Car {
 		this.friction = 0.05;
 		this.angle = 0;
 
-		this.sensor = new Sensors(this);
+		this.sensor = new Sensor(this);
 		this.controls = new Controls();
 	}
 	update(roadBorders) {
