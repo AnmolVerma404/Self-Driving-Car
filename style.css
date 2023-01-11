@@ -21,6 +21,9 @@
 	--midnight-voilet: #1f242d;
 	--groung-green: #07252d;
 }
-#myCanvas {
+#networkCanvas {
+	background: black;
+}
+#carCanvas {
 	background: lightgray;
 }
