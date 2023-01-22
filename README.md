@@ -37,6 +37,10 @@ A neural network is a type of machine learning algorithm modeled after the struc
 
 Machine learning is a type of artificial intelligence that involves training algorithms on data to allow them to make decisions or predictions. In this app, we are using machine learning to train the driving algorithm for the self driving car.
 
+## What it look's like
+
+![Self Driving Car](./images/self-driving-car.gif)
+
 ## Contributing
 
 If you would like to contribute to the project, please follow these guidelines:
